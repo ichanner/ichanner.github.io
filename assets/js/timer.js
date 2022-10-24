@@ -1,23 +1,21 @@
   
 var i = 0;
 var speed = 150;
-var txt = 'Ian Channerr';
+var txt = 'Ian Channer';
 var textBox;
 
 window.onload = function () {
 
     
     textBox = document.getElementById("box");
-    textBox.value = ""
     
-    stageOne();   
+    if(textBox.value.length==0) stageOne();   
 }
-
 
 
 function stageOne() {
     
-    if (i < txt.length-1) {
+    if (i < txt.length) {
 
       textBox.select();
       
