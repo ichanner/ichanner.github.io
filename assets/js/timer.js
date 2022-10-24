@@ -1,19 +1,15 @@
   
 var i = 0;
-var j = 0;
-var n = 0;
 var speed = 150;
-
-var txt = ['Ian Channerr'];
+var txt = 'Ian Channerr';
 var textBox;
-
-
 
 window.onload = function () {
 
     
     textBox = document.getElementById("box");
-    //textBox.value = "               "
+    textBox.value = ""
+    
     stageOne();   
 }
 
@@ -21,17 +17,14 @@ window.onload = function () {
 
 function stageOne() {
     
- 
-
-    if (i < txt[n].length-1) {
+    if (i < txt.length-1) {
 
       textBox.select();
       
-      textBox.value += txt[n].charAt(i);
+      textBox.value += txt.charAt(i);
       
       i++;
       
       setTimeout(stageOne, speed);
-
     }
 }
