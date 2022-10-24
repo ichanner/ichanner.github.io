@@ -40,7 +40,9 @@ footer, header, hgroup, menu, nav, section {
 	padding: 20px;
 }
 
-
+a {
+  outline:none !important;
+}
 
 
 body {
