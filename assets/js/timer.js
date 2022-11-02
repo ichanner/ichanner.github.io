@@ -1,11 +1,9 @@
-  
 var i = 0;
 var speed = 150;
 var txt = 'Ian Channer';
 var textBox;
 
 window.onload = function () {
-
     
     textBox = document.getElementById("box");
     

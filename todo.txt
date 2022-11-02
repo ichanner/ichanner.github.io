@@ -1,0 +1,15 @@
+-Debug server 
+	-Update Reference
+		-Span create
+		-Span join
+		-Span maintain
+	-Process Upload
+	
+-Add preview state
+		
+
+-Preview component
+
+-Discover bottom tab
+
+-Custom Alerts
